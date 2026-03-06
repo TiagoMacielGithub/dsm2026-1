@@ -1,0 +1,55 @@
+<!-- 
+1. No head do html: utf-8, link com css, link com ícone, descrição, palavra-chave, autor
+2. No body: estruturado com .container, header, nav, main, section, aside, footer (vc poderá criar mais caixas como fizemos com .conteúdo)
+2. Formate toda a estrutura com CSS, utilize cores de fundo ou não, cores de fonte, margens, padding, flexbox (display:flex)
+4. No header colocar uma imagem e o nome da empresa (um do lado do outro)
+5. No main coloque section e aside lado a lado
+6. No section insira texto de parágrafo e imagem -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atividade Flexbox desenvolvimento web">
+    <meta name="keywords" content="fatec">
+    <meta name="author" content="Tiago Maciel">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Atividade</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Imagem de um celular" id="logo">
+        <h1>Phonecell</h1>
+    </header>
+    <div class="container">
+        <div class="conteudo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <img src="img/pocket.png" alt="" id="img-aside">
+                    <div id="texto">
+                        <p><h2>Destaques do dia:</h2></p>
+                        <p><h3>Marca: Galaxy</h3></p>
+                        <p><h3>Modelo: Pocket</h3></p>
+                        <p><h3>Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptatum laboriosam! Maiores animi quibusdam praesentium quasi dignissimos, repellat ad ipsam tenetur laboriosam est omnis impedit quisquam itaque, ab maxime sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique beatae laudantium delectus maiores debitis soluta, harum eligendi et ipsam iste quis est rerum corrupti iure, sint ipsa impedit facere! Necessitatibus?</h3></p>
+                    </div>
+                </section>
+                <aside>
+                    <h4>Aside: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nostrum illum omnis saepe repudiandae amet odio tenetur non soluta, asperiores optio sunt neque maiores maxime minus, laudantium quis quisquam similique?</h4>
+                </aside>
+            </main>
+            
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
