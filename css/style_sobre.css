@@ -19,7 +19,7 @@ header{
     display: flex;
 }
 
-nav{
+.menu-lateral{
     width: 20%;
 }
 main{
@@ -29,7 +29,7 @@ main{
 footer {
     text-align: center;
 }
-header, nav, main, footer {
+header, main, footer {
     padding: 20px;
 }
 
@@ -39,12 +39,6 @@ section{
     width: 80%;
     text-align: justify;
     display: flex;
-}
-aside{
-    background-color: gray;
-    padding: 10px;
-    width: 20%;
-    margin-left: 20px;
 }
 #logo{
     width: 2.5rem;
@@ -64,8 +58,11 @@ p{
     flex-direction: column;
     width: 95%;
 }
-
-li{
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.menu-lateral a{
     width: 80%;
     border-radius: 1rem;
     background-color: rgb(40, 126, 255);
@@ -73,10 +70,19 @@ li{
     align-content: space-between;
     margin-bottom: 1rem;
     color: white;
-}
-li a{
+    display: block;
     text-decoration: none;
-    color: white;
+}
+
+li a:hover{
+    width: 80%;
+    border-radius: 1rem;
+    background-color: rgb(40, 126, 255);
+    align-content: space-between;
+    margin-bottom: 1rem;
+    color: rgb(40, 126, 255);
+    background-color: white;
+    border: 2px solid rgb(40, 126, 255);
 }
 #texto h3{
     margin-left: 1rem;
