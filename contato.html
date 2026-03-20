@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Atividade</title>
 </head>
+
 <body>
     <header>
         <img src="img/logo.png" alt="Imagem de um celular" id="logo">
@@ -19,32 +21,37 @@
         <div class="conteudo">
             <nav class="menu-lateral">
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="fotos.html">Fotos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="index.html"><i class="bi bi-house"></i> Início</a></li>
+                    <li><a href="fotos.html"><i class="bi bi-person-square"></i> Fotos</a></li>
+                    <li><a href="contato.html"><i class="bi bi-headset"></i> Contato</a></li>
+                    <li><a href="sobre.html"><i class="bi bi-file-text-fill"></i> Sobre</a></li>
                 </ul>
             </nav>
             <main>
                 <section>
                     <div id="texto">
                         <p>Entre em contato:</p>
-                        <p>algum.email@email.com</p>
                         <div id="form">
-                            <form action="">
-                                <label for="fname">Nome:</label><br>
-                                <input type="text" id="fname" name="fname" value=""><br>
-                                <label for="lname">Comentário:</label><br>
-                                <input type="text" id="lname" name="lname" value=""><br><br>
-                                <input type="submit" value="Enviar">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Endereço de email:</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="joao123@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Comentário:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-outline-info">Enviar</button>
                             </form>
                         </div>
                     </div>
                 </section>
             </main>
-            
+
         </div>
         <footer>Footer</footer>
     </div>
 </body>
+
 </html>
